@@ -55,6 +55,11 @@ namespace ET
         private Dictionary<string, Entity> children = new Dictionary<string, Entity>();
         private Dictionary<Type, Component> components = new Dictionary<Type, Component>();
 
+        public Entity()
+        {
+            this.Name = this.GetType().Name;
+        }
+
         public T GetParent<T>() where T : Entity
         {
             return this.parent as T;

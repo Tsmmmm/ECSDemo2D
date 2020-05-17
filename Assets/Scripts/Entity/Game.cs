@@ -1,11 +1,13 @@
-﻿namespace ET 
+﻿using UnityEngine;
+
+namespace ET 
 {
-    public static class Game 
+    public static class Game
     {
         private static Scene scene;
-        public static Scene Scene 
+        public static Scene Scene
         {
-            get 
+            get
             {
                 return scene ?? (scene = EntityFactory.Create<Scene>());
             }
@@ -26,6 +28,8 @@
                 return EventSystem.Instance;
             }
         }
+
+        public static KeyCode CurCode { set; get; }
 
         public static void Close()
         {

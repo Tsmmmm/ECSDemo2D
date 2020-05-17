@@ -1,0 +1,82 @@
+{
+	"Version": 3,
+	"Parameters": [
+		{
+			"Id": "ParamHeadAngle",
+			"GroupId": "",
+			"Name": "头部 旋转"
+		},
+		{
+			"Id": "ParamBodyAngle",
+			"GroupId": "",
+			"Name": "身体 旋转"
+		},
+		{
+			"Id": "ParamBodyWarp",
+			"GroupId": "",
+			"Name": "身体 变形"
+		},
+		{
+			"Id": "ParamRightArmAngle",
+			"GroupId": "",
+			"Name": "右上臂 旋转"
+		},
+		{
+			"Id": "ParamRightHandAngle",
+			"GroupId": "",
+			"Name": "右小臂 旋转"
+		},
+		{
+			"Id": "ParamRightPalmAngle",
+			"GroupId": "",
+			"Name": "右手掌 旋转"
+		},
+		{
+			"Id": "ParamLeftArmAngle",
+			"GroupId": "",
+			"Name": "左上臂 旋转"
+		},
+		{
+			"Id": "ParamLeftHandAngle",
+			"GroupId": "",
+			"Name": "左小臂 旋转"
+		},
+		{
+			"Id": "ParamLeftPalmAngle",
+			"GroupId": "",
+			"Name": "左手掌 旋转"
+		},
+		{
+			"Id": "ParamRightLegAngle",
+			"GroupId": "",
+			"Name": "右大腿 旋转"
+		},
+		{
+			"Id": "ParamRightCalfAngle",
+			"GroupId": "",
+			"Name": "右小腿 旋转"
+		},
+		{
+			"Id": "ParamRightFootAngle",
+			"GroupId": "",
+			"Name": "右脚掌 旋转"
+		},
+		{
+			"Id": "ParamLeftLegAngle",
+			"GroupId": "",
+			"Name": "左大腿 旋转"
+		},
+		{
+			"Id": "ParamLeftCalfAngle",
+			"GroupId": "",
+			"Name": "左小腿 旋转"
+		},
+		{
+			"Id": "ParamLeftFootAngle",
+			"GroupId": "",
+			"Name": "左脚掌 旋转"
+		}
+	],
+	"ParameterGroups": [],
+	"Parts": []
+}
