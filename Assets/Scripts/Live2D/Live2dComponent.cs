@@ -92,8 +92,14 @@ namespace ET
             }
         }
 
-        public void PlayAnimation(string anim, int layerIndex = 0, int priority = CubismMotionPriority.PriorityNormal, bool isLoop = true, float speed = 1)
+        public string curName;
+        public void PlayAnimation(string anim, int layerIndex = 0, int priority = CubismMotionPriority.PriorityForce, bool isLoop = true, float speed = 1)
         {
+            if (anim == curName) 
+            {
+                return;
+            }
+
             AnimationClip clip;
             if (!this.Animations.TryGetValue(anim, out clip))
             {

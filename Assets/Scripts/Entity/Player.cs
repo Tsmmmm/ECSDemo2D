@@ -10,11 +10,6 @@ namespace ET
             self.Awake(a);
             Live2dComponent live2d = ComponentFactory.CreateWithEntity<Live2dComponent, ModelType, string>(self, ModelType.Player, a);
             live2d.PlayAnimation("Idle");
-            InputComponent input = ComponentFactory.CreateWithEntity<InputComponent>(self);
-            input.OnCodeDown += () => 
-            {
-                live2d.PlayAnimation("Run", priority:3);
-            };
         }
     }
 
